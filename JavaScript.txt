@@ -1,0 +1,35 @@
+JAVA SCRIPT 
+
+console.log("Hello")
+
+let fname
+let lname
+let mname
+let faname
+let bgrp
+let age
+let address
+let dob
+let course
+let phone
+let email
+
+document.getElementById("submit").onclick = function(){
+    console.log("your data is submitted")
+    fname = document.getElementById("fname").value
+    lname = document.getElementById("lname").value
+    mname = document.getElementById("mname").value
+    faname = document.getElementById("faname").value
+    bgrp = document.getElementById("bloodgroup").value
+    age = document.getElementById("age").value
+    address = document.getElementById("address").value
+    dob = document.getElementById("dob").value
+    course = document.getElementById("course").value
+    phone = document.getElementById("phone").value
+    email = document.getElementById("email").value
+
+    document.getElementById("data").innerHTML = "Hey " +fname+ " " +lname+ " ! Welcome to our college. Thanks for chosing " +course+ 
+    " course. As per the data you have entered, you are of the age " +age+ " and born on " +dob+ ". Your blood group is " +bgrp+ 
+    ". Your current address is " +address+ ". For any updates by our side check your email id " +email+ 
+    ". For further procedure we will contact you through your cell phone number " +phone+ "."
+}
