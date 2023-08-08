@@ -44,6 +44,7 @@ HTML CODE
                       <div class="row">
                         <div class="col-md-6 mb-4">
                           <div class="form-outline">
+                            <h1> Welcome </h1>
                             <input type="text" id="mname" class="form-control form-control-lg" />
                             <label class="form-label" for="form3Example1m1">Mother's name</label>
                           </div>
